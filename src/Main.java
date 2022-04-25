@@ -3,10 +3,14 @@ public class Main {
 int primaryBalance = 100;
 int sumOfFirstRefill = 100;
 int sumOfSecondRefill = 1100;
-        System.out.println("Итоговый счет");
+int bonus = sumOfSecondRefill/100;
+        System.out.println("Итоговый счет1");
         System.out.println((primaryBalance+sumOfFirstRefill) + " руб ");
+        System.out.println("Итоговый счет2");
+        System.out.println((primaryBalance+sumOfSecondRefill+bonus) + " руб ");
 
-        System.out.println("Количество бонусных рублей");
+        
+        System.out.println("Количество бонусных рублей2");
         System.out.println((sumOfSecondRefill/100) + " руб ");
     }
 }
